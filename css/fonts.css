@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* 구글폰트에서 Noto Sans KR 300/400 과 Public Sans 400 가져옴 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&family=Public+Sans&display=swap');
+
+/* 영어 font2 - SilkSerifLightItalic */
+@font-face {
+  font-family: 'SilkSerifLightItalic';
+  font-weight: normal;
+  src: url('../fonts/SilkSerifLightItalic.woff2') format('woff2');
+ }
+@font-face {
+  font-family: 'SilkSerifRegularItalic';
+  font-weight: normal;
+  src: url('../fonts/Silk_Serif_Regular_Italic.woff') format('woff');
+ }
+@font-face {
+  font-family: 'SilkSerifMediumItalic';
+  font-weight: normal;
+  src: url('../fonts/Silk_Serif_Medium_Italic.woff') format('woff');
+ }
+
+/* portrait */
+@font-face {
+  font-family: 'portrait-script';
+  src: url('../fonts/FontsFree-Net-portrait-script-regular.woff') format('woff');
+}
+
+ /* pretendard */
+@font-face {
+  font-family: 'Pretendard-Thin';
+  src: url('../fonts/Pretendard/Pretendard-Thin.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard-ExtraLight';
+  src: url('../fonts/Pretendard/Pretendard-ExtraLight.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard-Light';
+  src: url('../fonts/Pretendard/Pretendard-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('../fonts/Pretendard/Pretendard-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard-Medium';
+  src: url('../fonts/Pretendard/Pretendard-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  src: url('../fonts/Pretendard/Pretendard-SemiBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard-Bold';
+  src: url('../fonts/Pretendard/Pretendard-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard-Black';
+  src: url('../fonts/Pretendard/Pretendard-Black.woff') format('woff');
+}
+ 
+
+ /* 영어 폰트 */
+ .en1 {font-family: 'SilkSerifLightItalic';}
+ .en2 {font-family: 'SilkSerifRegularItalic';}
+ .en3 {font-family: 'SilkSerifMediumItalic';}
+ .en4 {font-family: 'portrait-script';}

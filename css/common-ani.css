@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+@keyframes slide-up1 {
+  0% {transform: translateY(30px); opacity: 0;}
+  30% {transform: translateY(30px); opacity: 0;}
+}
+@keyframes slide-up2 {
+  0% {transform: translateY(80px); opacity: 0;}
+  50% {transform: translateY(80px); opacity: 0;}
+}
+
+/* header */
+header .header-logo:hover .HeaderAni01, header .header-logo:focus .HeaderAni01 {animation: headerLogoAni01 1s infinite;}
+header .header-logo:hover .HeaderAni02, header .header-logo:focus .HeaderAni02 {animation: headerLogoAni02 1s infinite;}
+header .header-logo:hover .HeaderAni03, header .header-logo:focus .HeaderAni03 {animation: headerLogoAni03 1s infinite;}
+header .header-logo:hover .HeaderAni04, header .header-logo:focus .HeaderAni04 {animation: headerLogoAni04 1s infinite;}
+header .header-logo:hover .HeaderAni05, header .header-logo:focus .HeaderAni05 {animation: starFade01 1s infinite;}
+header .header-logo:hover .HeaderAni06, header .header-logo:focus .HeaderAni06 {animation: starFade02 1s infinite;}
+@keyframes headerLogoAni01 {
+  0% {transform: translate(876px, 475.199px);}
+  50% {transform: translate(876px, 473.199px);}
+  100% {transform: translate(876px, 475.199px);}
+}
+@keyframes headerLogoAni02 {
+  0% {transform: translate(876px, 485.406px);}
+  50% {transform: translate(876px, 484.406px);}
+  100% {transform: translate(876px, 485.406px);}
+}
+@keyframes headerLogoAni03 {
+  0% {transform: translate(876px, 495.897px);}
+  50% {transform: translate(876px, 496.897px);}
+  100% {transform: translate(876px, 495.897px);}
+}
+@keyframes headerLogoAni04 {
+  0% {transform: translate(876px, 506.388px);}
+  50% {transform: translate(876px, 508.388px);}
+  100% {transform: translate(876px, 506.388px);}
+}
+
+
+
+
+/* scroll */
+.scroll {position: relative; overflow: hidden;}
+.scroll span {opacity: 0;}
+.scroll::before {content: 'Scroll Down'; position: absolute; left: 50%; transform: translateX(-50%); animation: scroll01 .5s linear infinite;}
+.scroll::after {content: 'Scroll Down'; position: absolute; left: 50%; transform: translateX(-50%); animation: scroll02 .5s linear infinite;}
+@keyframes scroll01 {
+  0% {transform: translate(-50%, -20px);}
+  100% {transform: translate(-50%, 0px);}
+}
+@keyframes scroll02 {
+  0% {transform: translate(-50%, 0px);}
+  100% {transform: translate(-50%, 20px);}
+}
+
+.fade1 {animation-name: starFade01; animation-duration: 1s; animation-iteration-count: infinite;}
+.fade2 {animation-name: starFade01; animation-duration: 2.5s; animation-iteration-count: infinite;}
+.fade3 {animation-name: starFade02; animation-duration: 1s; animation-iteration-count: infinite;}
+.fade4 {animation-name: starFade02; animation-duration: 1.7s; animation-iteration-count: infinite;}
+.fade5 {animation-name: starFade02; animation-duration: 2.1s; animation-iteration-count: infinite;}
+@keyframes starFade01 {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+@keyframes starFade02 {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+
+/* footer */
+
+footer .orbit1 {animation-name: foot-orbit1; animation-duration: 3s; animation-iteration-count: infinite;}
+footer .orbit2 {animation-name: foot-orbit2; animation-duration: 3s; animation-iteration-count: infinite;}
+footer .orbit3 {animation-name: foot-orbit3; animation-duration: 3s; animation-iteration-count: infinite;}
+footer .orbit4 {animation-name: foot-orbit4; animation-duration: 3s; animation-iteration-count: infinite;}
+
+@keyframes foot-orbit1 { 
+  0% {transform: translate(792.454px, 17421.713px);}
+  50% {transform: translate(792.454px, 17411px);} /* -10 */
+  100% {transform: translate(792.454px, 17421.713px);}
+}
+@keyframes foot-orbit2 { 
+  0% {transform: translate(792.454px, 17467.471px);}
+  50% {transform: translate(792.454px, 17464px);} /* -4 */
+  100% {transform: translate(792.454px, 17467.471px);}
+}
+@keyframes foot-orbit3 { /* 613 */
+  0% {transform: translate(792.454px, 17514.496px);}
+  50% {transform: translate(792.454px, 17518.496px);} /* +4 */
+  100% {transform: translate(792.454px, 17514.496px);}
+}
+@keyframes foot-orbit4 { /* 613 */
+  0% {transform: translate(792.454px, 17561.523px);}
+  50% {transform: translate(792.454px, 17571.523px);} /* +10 */
+  100% {transform: translate(792.454px, 17561.523px);}
+}
+
+
+/* *****visual***** */
+.visual.motion path {animation-name: visual-dash; animation-duration: 2s; stroke-dasharray: 1078; stroke-dashoffset: 0;}
+@keyframes visual-dash {
+  0% {stroke-dashoffset: 1078;}
+  100% {stroke-dashoffset: 0;}
+}
+
+/* visual text spltting */
+.visual.motion .intro-txt span .char {display: inline-block; animation: slide-up1 .2s cubic-bezier(.5,0,.5,1) both; animation-delay: calc(0.04s * var(--char-index));}
+
+@keyframes orbit1 { /* 613 */
+  0% {transform: translate(876px, 613.218px);}
+  50% {transform: translate(876px, 597px);} /* -10 */
+  100% {transform: translate(876px, 613.218px);}
+}
+@keyframes orbit2 { /* 589 */
+  0% {transform: translate(876px, 589.803px);}
+  50% {transform: translate(876px, 580px);} /* -4 */
+  100% {transform: translate(876px, 589.803px);}
+}
+@keyframes orbit3 { /* 566 */
+  0% {transform: translate(876px, 566.387px);}
+  50% {transform: translate(876px, 568px);} /* +4 */
+  100% {transform: translate(876px, 566.387px);}
+}
+@keyframes orbit4 { /* 543 */
+  0% {transform: translate(876px, 543.604px);} 
+  50% {transform: translate(876px, 549px);} /* +10 */
+  100% {transform: translate(876px, 543.604px);}
+}
+@keyframes logoPlanetAni { /* 582 */
+  0% {transform: translate(940px, 584px);}
+  50% {transform: translate(940px, 578px);}
+  100% {transform: translate(940px, 584px);}
+}
+@keyframes starAni1 {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes starAni2 {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.orbit1 {animation-name: orbit1; animation-duration: 3s; animation-iteration-count: infinite;}
+.orbit2 {animation-name: orbit2; animation-duration: 3s; animation-iteration-count: infinite;}
+.orbit3 {animation-name: orbit3; animation-duration: 3s; animation-iteration-count: infinite;}
+.orbit4 {animation-name: orbit4; animation-duration: 3s; animation-iteration-count: infinite;}
+/* .logoPlanetAni {animation-name: logoPlanetAni; animation-duration: 1s; animation-iteration-count: infinite;} */
+#패스_215.starAni1 {animation-name: starAni1; animation-duration: 1s; animation-iteration-count: infinite;}
+#패스_219.starAni2 {animation-name: starAni2; animation-duration: 1s; animation-iteration-count: infinite;}
+.starAni1 {animation-name: starAni1; animation-duration: 1s; animation-iteration-count: infinite;}
+.starAni2 {animation-name: starAni2; animation-duration: 1s; animation-iteration-count: infinite;}
+
+
+
+@keyframes sub-orbit1 { /* 613 */
+  0% {transform: translate(876px, 536.854px);}
+  50% {transform: translate(876px, 526px);} /* -10 */
+  100% {transform: translate(876px, 536.854px);}
+}
+@keyframes sub-orbit2 { /* 589 */
+  0% {transform: translate(876px, 517.58px);}
+  50% {transform: translate(876px, 513px);} /* -4 */
+  100% {transform: translate(876px, 517.58px);}
+}
+@keyframes sub-orbit3 { /* 566 */
+  0% {transform: translate(876px, 498.305px);}
+  50% {transform: translate(876px, 502px);} /* +4 */
+  100% {transform: translate(876px, 498.305px);}
+}
+@keyframes sub-orbit4 { /* 543 */
+  0% {transform: translate(876px, 479.551px);} 
+  50% {transform: translate(876px, 489px);} /* +10 */
+  100% {transform: translate(876px, 479.551px);}
+}
+@keyframes sub-starAni1 {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+@keyframes sub-starAni2 {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.sub-orbit1 {animation-name: sub-orbit1; animation-duration: 3s; animation-iteration-count: infinite;}
+.sub-orbit2 {animation-name: sub-orbit2; animation-duration: 3s; animation-iteration-count: infinite;}
+.sub-orbit3 {animation-name: sub-orbit3; animation-duration: 3s; animation-iteration-count: infinite;}
+.sub-orbit4 {animation-name: sub-orbit4; animation-duration: 3s; animation-iteration-count: infinite;}
+.visual-logo #패스_95 {animation-name: sub-starAni1; animation-duration: 1s; animation-iteration-count: infinite;}
+.visual-logo #패스_96 {animation-name: sub-starAni2; animation-duration: 1s; animation-iteration-count: infinite;}
+
+
+
+
+/* title */
+@keyframes titleAni {
+  0% {opacity: 0;}
+  30% {opacity: 0; transform: translate3d(0,40px,0) skewY(8deg); transform-origin: top left;}
+}
+
+section.motion .section-title p {transform: translate3d(0,0,0) skewY(0deg); overflow: hidden;}
+section.motion .section-title p span {overflow: hidden; display: block; animation-name: titleAni; animation-duration: 1.3s;}
+
+.motto .section-title p:first-child span,
+.blog .section-title p:first-child span,
+.skills .section-title p:first-child span {padding: 0 10px 20px;}
+.ncs .section-title p span {animation-duration: 4s; padding: 0 10px;}
+.clone .section-title p:nth-child(2) span,
+.blog .section-title p:nth-child(2) span {padding-bottom: 20px;}
+
+.visual .section-title span {padding: 0 10px;}
+
+
+
+/* skill */
+@keyframes chart {
+  0% {opacity: 0; transform: translateY(150px);}
+  50% {opacity: 0; transform: translateY(150px);}
+}
+.skills.motion  .chart-container.motion .li1 {animation-name: chart; animation-duration: 1.1s;}
+.skills.motion  .chart-container.motion .li2 {animation-name: chart; animation-duration: 1.3s;}
+.skills.motion  .chart-container.motion .li3 {animation-name: chart; animation-duration: 1.5s;}
+.skills.motion  .chart-container.motion .li4 {animation-name: chart; animation-duration: 1.7s;}
+.skills.motion  .chart-container.motion .li5 {animation-name: chart; animation-duration: 2.0s;}
+.skills.motion  .chart-container.motion .li6 {animation-name: chart; animation-duration: 2.3s;}
+.skills.motion  .chart-container.motion .li7 {animation-name: chart; animation-duration: 2.7s;}
+
+
+
+
+/* clone */
+.clone .container.motion svg .c1 {animation-name: clone-c1; animation-duration: 1.2s;}
+@keyframes clone-c1 {
+  0% {opacity: 0; transform: translate(1300.805px, 7405.646px);}
+  50% {opacity: 0; transform: translate(1300.805px, 7405.646px);}
+}
+.clone .container.motion svg .c2 {animation-name: clone-c2; animation-duration: 2.2s;}
+@keyframes clone-c2 {
+  0% {opacity: 0; transform: translate(487.502px, 8100.382px);}
+  50% {opacity: 0; transform: translate(487.502px, 8100.382px);}
+}
+.clone .container.motion svg .c3 {animation-name: clone-c3; animation-duration: 2s;}
+@keyframes clone-c3 {
+  0% {opacity: 0; transform: translate(660px, 8460px);}
+  50% {opacity: 0; transform: translate(660px, 8460px);}
+}
+
+
+/* clone path*/
+.clone .container.motion .svgAni2 path.ani {animation-name: cloneDash; animation-duration: 2.5s; stroke-dasharray: 2259; stroke-dashoffset: 0;}
+@keyframes cloneDash {
+  0% {stroke-dashoffset: 2259;}
+  20% {stroke-dashoffset: 2259;}
+  100% {stroke-dashoffset: 0;}
+}
+
+
+/* blog */
+.blog .inner.motion .c1 {animation-name: blog-c1; animation-duration: 2s;}
+@keyframes blog-c1 {
+  0% {opacity: 0; transform: translate(745px, 9490.906px);}
+  50% {opacity: 0; transform: translate(745px, 9490.906px);}
+}
+.blog .inner.motion .c2 {animation-name: blog-c2; animation-duration: 2.4s;}
+@keyframes blog-c2 {
+  0% {opacity: 0; transform: translate(850px, 2708px);}
+  50% {opacity: 0; transform: translate(850px, 2708px);}
+}
+.blog .inner.motion .c3 {animation-name: blog-c3; animation-duration: 3s;}
+@keyframes blog-c3 {
+  0% {opacity: 0;}
+  50% {opacity: 0;}
+}
+
+/* blog path */
+.blog .inner.motion .svgAni3 {animation-name: blogDash; animation-duration: 2.5s; stroke-dasharray: 1262; stroke-dashoffset: 0;}
+@keyframes blogDash {
+  0% {stroke-dashoffset: 1262;}
+  30% {stroke-dashoffset: 1262;}
+  100% {stroke-dashoffset: 0;}
+}
+
+
+
