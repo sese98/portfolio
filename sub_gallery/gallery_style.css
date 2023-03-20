@@ -79,29 +79,3 @@ header {width: 100%; display: flex; justify-content: space-between; background: 
 .ncs .ncs-container ul li a .tit {font-size: 3.2rem; padding: 3px 0 20px;}
 .ncs .ncs-container ul li a .txt {font-size: 1.1rem; padding-bottom: 25px;}
 .ncs .ncs-container ul li:hover p,.ncs .ncs-container ul li:focus p {margin-left: 10px; transition: all .5s;}
-
-
-/* artwork */
-.artwork {width: 100%; padding: 200px 0; margin: 200px 0px;}
-.artwork .inner {width: 80%; display: flex; flex-direction: column; align-items: center;}
-.artwork .section-title {width: 53%; margin: 0 auto;}
-.artwork ul {
-  margin: 200px auto 0;
-  display: grid;
-  grid-gap: 20px 20px;
-  grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(4, 300px);
-  grid-template-areas: 
-  'a b b'
-  'a c d'
-  'e e d'
-  'f g g';
-}
-.artwork ul li {background: rgb(96, 117, 207);}
-.artwork ul li:nth-child(1) {grid-area: a;}
-.artwork ul li:nth-child(2) {grid-area: b;}
-.artwork ul li:nth-child(3) {grid-area: c;}
-.artwork ul li:nth-child(4) {grid-area: d;}
-.artwork ul li:nth-child(5) {grid-area: e;}
-.artwork ul li:nth-child(6) {grid-area: f;}
-.artwork ul li:nth-child(7) {grid-area: g;}
