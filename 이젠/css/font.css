@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* 구글폰트에서 Noto Sans KR 300/400 과 Public Sans 400 가져옴 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&family=Public+Sans&display=swap');
+
+@font-face {
+  font-family: 'SilkSerifLightItalic';
+  font-weight: normal;
+  src: url(../fonts/SilkSerifLightItalic.woff2) format('woff2');
+ }
+ /* 영어 font2 - SilkSerifLightItalic */
+
+ 
+ /* 영어 폰트 */
+ .en {font-family: 'Public Sans', sans-serif;}
+ .en2 {font-family: 'SilkSerifLightItalic';}
