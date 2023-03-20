@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.46 14.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #005c51;
+      }
+    </style>
+  </defs>
+  <g id="_격리_모드" data-name="격리 모드">
+    <polygon class="cls-1" points="17.31 4.63 17.31 2.73 7.47 2.73 6.07 .45 .45 .45 .45 12.79 2.68 4.63 17.31 4.63"/>
+    <polygon class="cls-2" points=".45 .45 6.07 .45 7.47 2.73 17.31 2.73 17.31 4.63 17.76 4.63 17.76 2.28 7.72 2.28 6.32 0 0 0 0 14.43 .45 12.79 .45 .45"/>
+    <path class="cls-2" d="M17.76,4.63H2.68L.45,12.79l-.45,1.64v.26H17.76v-.19l2.7-9.87h-2.7Zm-.4,9.61H.52L3.03,5.08H19.87l-2.11,7.71-.4,1.45Z"/>
+  </g>
+</svg>

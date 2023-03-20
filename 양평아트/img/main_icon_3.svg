@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.57 25.31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .97px;
+      }
+    </style>
+  </defs>
+  <g id="Isolation_Mode" data-name="Isolation Mode">
+    <path class="cls-1" d="M.49,.49H21.08V17.8H.49V.49H.49ZM3.81,3.81h13.94V14.48H3.81V3.81h0Zm0,0L.49,.49M17.76,3.81L21.08,.49"/>
+    <path class="cls-1" d="M3.81,14.48L.49,17.8m17.27-3.33l3.33,3.33"/>
+    <path class="cls-1" d="M2.28,24.83l3.96-6.87m4.54-.15v4.57"/>
+    <line class="cls-1" x1="19.29" y1="24.83" x2="15.32" y2="17.96"/>
+  </g>
+</svg>
