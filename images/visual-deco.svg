@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="88.875" viewBox="0 0 1920 88.875">
+  <g id="그룹_312" data-name="그룹 312" transform="translate(0 -734.125)">
+    <g id="그룹_311" data-name="그룹 311">
+      <path id="패스_220" data-name="패스 220" d="M2.764,0A2.764,2.764,0,1,1,0,2.764,2.764,2.764,0,0,1,2.764,0Z" transform="translate(1278.857 764.979)" fill="none" stroke="#fffffb" stroke-width="1"/>
+      <path id="패스_223" data-name="패스 223" d="M5.527,0A5.527,5.527,0,1,1,0,5.527,5.527,5.527,0,0,1,5.527,0Z" transform="translate(1286.232 811.945)" fill="#fffffb"/>
+      <circle id="타원_95" data-name="타원 95" cx="4.764" cy="4.764" r="4.764" transform="translate(637.182 734.875)" fill="none" stroke="#fffffb" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle id="타원_96" data-name="타원 96" cx="2.382" cy="2.382" r="2.382" transform="translate(647.182 750.911)" fill="#fffffb" stroke="#fffffb" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="패스_221" data-name="패스 221" d="M364.187,320.824l1.308-11.439a1.258,1.258,0,0,1,2.5,0l1.308,11.439a1.263,1.263,0,0,0,1.108,1.107l11.439,1.308a1.258,1.258,0,0,1,0,2.5l-11.439,1.308a1.259,1.259,0,0,0-1.108,1.107l-1.308,11.439a1.258,1.258,0,0,1-2.5,0l-1.308-11.439a1.256,1.256,0,0,0-1.107-1.107l-11.439-1.308a1.258,1.258,0,0,1,0-2.5l11.439-1.308A1.259,1.259,0,0,0,364.187,320.824Z" transform="translate(899.42 473.236)" fill="none" stroke="#fffffb" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="패스_222" data-name="패스 222" d="M358.925,315.989l.8-7.034a.773.773,0,0,1,1.537,0l.8,7.034a.776.776,0,0,0,.681.681l7.034.8a.773.773,0,0,1,0,1.537l-7.034.8a.774.774,0,0,0-.681.681l-.8,7.034a.773.773,0,0,1-1.537,0l-.8-7.034a.772.772,0,0,0-.681-.681l-7.034-.8a.773.773,0,0,1,0-1.537l7.034-.8A.774.774,0,0,0,358.925,315.989Z" transform="translate(271.475 452.264)" fill="#fffffb"/>
+    </g>
+    <path id="패스_274" data-name="패스 274" d="M-19394-4942" transform="translate(19394 5765)" fill="none"/>
+    <path id="패스_275" data-name="패스 275" d="M-17474-4951.021" transform="translate(19394 5765)" fill="none"/>
+  </g>
+</svg>

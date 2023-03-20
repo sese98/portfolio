@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="167.075" height="139.52" viewBox="0 0 167.075 139.52">
+  <g id="그룹_141" data-name="그룹 141" transform="translate(-876 -531.5)">
+    <g id="타원_94" data-name="타원 94" transform="translate(876 613.218)" fill="none" stroke="#656565" stroke-width="1">
+      <ellipse cx="83.538" cy="23.099" rx="83.538" ry="23.099" stroke="none"/>
+      <ellipse cx="83.538" cy="23.099" rx="83.038" ry="22.599" fill="none"/>
+    </g>
+    <g id="타원_93" data-name="타원 93" transform="translate(876 589.803)" fill="none" stroke="#656565" stroke-width="1">
+      <ellipse cx="83.538" cy="23.416" rx="83.538" ry="23.416" stroke="none"/>
+      <ellipse cx="83.538" cy="23.416" rx="83.038" ry="22.916" fill="none"/>
+    </g>
+    <path id="패스_218" data-name="패스 218" d="M20,0A20,20,0,1,1,0,20,20,20,0,0,1,20,0Z" transform="translate(940 582)" fill="#fff"/>
+    <g id="타원_92" data-name="타원 92" transform="translate(876 566.387)" fill="none" stroke="#656565" stroke-width="1">
+      <ellipse cx="83.538" cy="23.416" rx="83.538" ry="23.416" stroke="none"/>
+      <ellipse cx="83.538" cy="23.416" rx="83.038" ry="22.916" fill="none"/>
+    </g>
+    <path id="패스_219" data-name="패스 219" d="M360.049,317.022l.912-7.975a.877.877,0,0,1,1.743,0l.912,7.975a.88.88,0,0,0,.772.772l7.975.912a.877.877,0,0,1,0,1.743l-7.975.912a.878.878,0,0,0-.772.772l-.912,7.975a.877.877,0,0,1-1.743,0l-.912-7.975a.876.876,0,0,0-.772-.772l-7.975-.912a.877.877,0,0,1,0-1.743l7.975-.912A.878.878,0,0,0,360.049,317.022Z" transform="translate(663.558 340.136)" fill="#fffffb"/>
+    <g id="타원_91" data-name="타원 91" transform="translate(876 543.604)" fill="none" stroke="#656565" stroke-width="1">
+      <ellipse cx="83.538" cy="23.099" rx="83.538" ry="23.099" stroke="none"/>
+      <ellipse cx="83.538" cy="23.099" rx="83.038" ry="22.599" fill="none"/>
+    </g>
+    <path id="패스_215" data-name="패스 215" d="M360.049,317.022l.912-7.975a.877.877,0,0,1,1.743,0l.912,7.975a.88.88,0,0,0,.772.772l7.975.912a.877.877,0,0,1,0,1.743l-7.975.912a.878.878,0,0,0-.772.772l-.912,7.975a.877.877,0,0,1-1.743,0l-.912-7.975a.876.876,0,0,0-.772-.772l-7.975-.912a.877.877,0,0,1,0-1.743l7.975-.912A.878.878,0,0,0,360.049,317.022Z" transform="translate(531.854 223.73)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920.456" height="700.265" viewBox="0 0 1920.456 700.265">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="-65" width="1920.456" height="700.265" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="스크롤_그룹_7" data-name="스크롤 그룹 7" transform="translate(65)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <g id="타원_42" data-name="타원 42" transform="translate(1282 21.265)" fill="#fff" stroke="#000" stroke-width="1">
+      <circle cx="6" cy="6" r="6" stroke="none"/>
+      <circle cx="6" cy="6" r="5.5" fill="none"/>
+    </g>
+    <circle id="타원_43" data-name="타원 43" cx="12" cy="12" r="12" transform="translate(0 676.265)"/>
+    <path id="패스_100" data-name="패스 100" d="M246.72,334.782l1.072-9.377a1.033,1.033,0,0,1,2.052,0l1.072,9.377a1.029,1.029,0,0,0,.9.908l9.377,1.072a1.031,1.031,0,0,1,0,2.049l-4.327.495-5.05.577a1.023,1.023,0,0,0-.9.9l-1.072,9.377a1.033,1.033,0,0,1-2.052,0l-1.072-9.377a1.029,1.029,0,0,0-.9-.908l-9.377-1.072a1.031,1.031,0,0,1,0-2.049l9.377-1.072A1.023,1.023,0,0,0,246.72,334.782Z" transform="translate(1290.705 -398.779) rotate(30)"/>
+  </g>
+</svg>

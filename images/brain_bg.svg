@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1934.667" height="1753.49" viewBox="0 0 1934.667 1753.49">
+  <g id="그룹_307" data-name="그룹 307" transform="translate(12.771 -2512.336)">
+    <path id="패스_100" data-name="패스 100" d="M246.72,334.782l1.072-9.377a1.033,1.033,0,0,1,2.052,0l1.072,9.377a1.029,1.029,0,0,0,.9.908l9.377,1.072a1.031,1.031,0,0,1,0,2.049l-4.327.495-5.05.577a1.023,1.023,0,0,0-.9.9l-1.072,9.377a1.033,1.033,0,0,1-2.052,0l-1.072-9.377a1.029,1.029,0,0,0-.9-.908l-9.377-1.072a1.031,1.031,0,0,1,0-2.049l9.377-1.072A1.023,1.023,0,0,0,246.72,334.782Z" transform="matrix(0.407, 0.914, -0.914, 0.407, 1976.674, 2649.199)" fill="#fff"/>
+    <path id="패스_271" data-name="패스 271" d="M-6586.142-2788.486s-191.389,1146.537-951.767,1271.342c-460.029,75.507-797.026,232.594-982,481.768" transform="translate(8507.544 5300.905)" fill="none" stroke="#fff" stroke-width="1"/>
+    <g id="타원_117" data-name="타원 117" transform="translate(1743 3054)" stroke="#fff" stroke-width="1">
+      <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+      <circle cx="6.5" cy="6.5" r="6" fill="none"/>
+    </g>
+    <g id="그룹_197" data-name="그룹 197" transform="translate(3992.993 2067.158) rotate(78)">
+      <g id="그룹_55" data-name="그룹 55" transform="translate(837 2726)">
+        <circle id="타원_28" data-name="타원 28" cx="10.49" cy="10.49" r="10.49" transform="translate(8.881 0)" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="패스_69" data-name="패스 69" d="M13.773,118.892c0-.976,3.658-1.832,9.153-2.312" transform="translate(-13.773 -108.402)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="패스_70" data-name="패스 70" d="M43.36,116.579c5.5.48,9.156,1.336,9.156,2.312,0,1.5-8.673,2.721-19.371,2.721s-19.371-1.218-19.371-2.721" transform="translate(-13.773 -108.401)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+    <path id="패스_246" data-name="패스 246" d="M243.269,331.61l.742-6.487a.714.714,0,0,1,1.419,0l.742,6.487a.712.712,0,0,0,.626.628l6.487.741a.713.713,0,0,1,0,1.417l-2.993.342-3.493.4a.708.708,0,0,0-.626.626l-.742,6.487a.714.714,0,0,1-1.419,0l-.742-6.487a.712.712,0,0,0-.626-.628l-6.487-.741a.713.713,0,0,1,0-1.417l6.487-.742A.708.708,0,0,0,243.269,331.61Z" transform="translate(503.319 3901.666) rotate(97)" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>
