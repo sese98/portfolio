@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+header {filter: invert(0%);} /* 임시 */
+
+/* visual */
+.visual {width: 100%;}
+.visual .inner {width: 100%; margin: 150px auto; text-align: center; position: relative;}
+.visual .inner .title-container {width: 25%; margin: 0 auto;}
+.visual .inner .section-title .txt {text-align: center; margin-bottom: 60px;}
+.visual .inner .visual-line {position: absolute; margin-top: -47px;}
+.visual .inner .intro-txt {margin: 100px 0 130px; line-height: 1.4;}
+
+
+/* video */
+.video {padding-top: 600px;/* 임시 */  width: 100%; height: 1916px; display: flex; align-items: center; position: relative;}
+.video svg {position: absolute;}
+.video p.v {width: 60%; height: 600px; background: grey; margin: 0 auto; z-index: 1; overflow: hidden;}
+.video video {object-fit: cover; width: 100%; filter: brightness(50%);}
+
+/* profile */
+.profile {width: 100%; text-align: center;}
+.profile .inner {padding: 100px 0 200px;}
+.profile .section-title {margin-bottom: 100px;}
+.profile .tit {font-size: 150px; width: 500px; margin: 0 auto;}
+.profile .tit span {padding-bottom: 20px; text-align: center;}
+.profile .picture-box {overflow: hidden; height: 700px; position: relative; margin-bottom: 50px;}
+.profile .picture-box img {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.profile .picture-box img:first-child {left: 40%;}
+.profile .picture-box img:last-child {left: 60%;}
+.profile .bgStar {position: absolute; z-index: -1; margin: 0 auto; left: 50%; transform: translateX(-50%);}
+.profile .bgStar svg {z-index: -1;}
+
+.profile .container {margin: 0 auto; width: 900px;}
+      /* profile grid */
+.profile .container > ul {
+  text-align: left;
+  display: grid;
+  grid-gap: 20px 10px;
+  grid-template-areas: 
+  'a b d'
+  'a c d'
+  'e e f';
+}
+.profile .container ul.grid > li:nth-child(1) {grid-area: a;}
+.profile .container ul.grid > li:nth-child(2) {grid-area: b;}
+.profile .container ul.grid > li:nth-child(3) {grid-area: c;}
+.profile .container ul.grid > li:nth-child(4) {grid-area: d;}
+.profile .container ul.grid > li:nth-child(5) {grid-area: e;}
+.profile .container ul.grid > li:nth-child(6) {grid-area: f;}
+
+.profile .container ul.grid .list-tit {font-weight: bold; font-size: 20px; letter-spacing: 0.7px; margin-bottom: 6px;}
+.profile .container ul.grid p.txt {margin-left: 20px;}
+.profile li {line-height: 1.4;}
+
+.profile .container ul.grid > li > ul {display: flex; flex-direction: column; margin-left: 20px;}
+.profile .container ul.grid > li > ul > li {width: 100%;}
+.profile .container ul.grid > li > ul > li p.cate {display: inline-block; text-align: left; }
+
+.profile .container ul.grid > li > ul.pro > li p.cate {width: 100px;}
+.profile .container ul.grid > li > ul.edu > li p.cate {width: 150px;}
+.profile .container ul.grid > li > ul.cre > li p.cate {width: 110px;}
+
+
+/* motto */
+.motto {margin: 100px auto; position: relative;}
+.motto .bg {width: 1920px; height: 100vh; margin: 0 auto;}
+.motto .bg .line {width: 1920px; height: 100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+.motto .bg .star {width: 1920px; height: 100%; position: absolute; top: 51.9%; left: 50%; transform: translate(-50%,-50%);}
+
+.motto .inner {width: 80%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); display: flex; justify-content: space-between; z-index: 100;}
+.motto .inner .section-title {width: 40%; max-width: 470px;}
+
+.motto .inner .txt-box {width: 48%; min-width: 594px; max-width: 650px; margin-top: 170px;}
+.motto .inner .txt-box .title {font-size: 60px; font-family: 'Pretendard-Medium'; letter-spacing: -2px;}
+.motto .inner .txt-box .title.tit1 {text-align: left;}
+.motto .inner .txt-box .title.tit2 {text-align: right;}
+.motto .inner .txt-box .title span {position: relative;}
+.motto .inner .txt-box .title span i {position: absolute; top: -10px; font-size: 50px;}
+.motto .inner .txt-box .title.tit1 span i {left: -50px;}
+.motto .inner .txt-box .title.tit2 span i {right: -50px;}
+.motto .inner .txt-box .txt {margin-top: 20px; font-size: 18px; line-height: 1.4;}
+
+
+/* skills */
+.skills {width: 100%; padding: 150px 0; overflow: hidden;}
+.skills .section-title {width: 100%;  margin-left: 80px; box-sizing: border-box;}
+.skills .section-title .title-container {width: 580px;}
+.skills .section-title .txt {text-align: left; padding-left: 50px; box-sizing: border-box; line-height: 1.4;}
+.skills .section-title .txt::before {content: ''; display: inline-block; width: 101%; margin: 0 0 5px -1%; height: 1px; background: var(--background-color-black);}
+/* chart */
+.skills .chart-container {width: 70%; font-size: 16px; float: right; margin: 180px 50px 0 0;}
+.skills .chart-container ul {display: flex; justify-content: space-between; text-align: center;}
+.skills .chart-container ul li {position: relative; line-height: 1.4; display: flex; flex-direction: column; align-items: center;}
+.skills .chart-container ul li div + span {font-size: 24px; margin: 20px 0 10px; font-family: 'Pretendard-Regular';}
+/* box1 */
+.skills .chart-container ul.box1 {width: 100%;}
+.skills .chart-container ul.box1 li {width: 20%;}
+/* box2 */
+.skills .chart-container ul.box2 {width: 73%; margin: 60px auto 0;}
+/* 원그래프 */
+
+.skills .chart {width: 160px; height: 160px; text-align: center; position: relative;}
+.chart path {width: 100%;}
+
+
+/* interest */
+.interest {text-align: center; padding: 200px 0;}
+.interest .section-title {width: 780px; margin-left: 80px;}
+.interest .section-title p span {padding: 0 11px 20px;}
+.interest .section-title p.txt {text-align: right; margin: 0 90px 0 0;}
+
+.interest .inner {position: relative;}
+.interest .inner ul {position: absolute; top: 0; width: 100%; display: flex; justify-content: center;}
+.interest .inner ul li {line-height: 1.4; position: absolute;}
+
+.interest .inner ul li:nth-child(1) {margin: 330px 480px 0 0;}
+.interest .inner ul li:nth-child(1)::before {content: '작년부터 책읽는 것을 좋아하게 되어 \A 독서가 취미가 되었습니다. \A 앞으로 더 열심히 다독하여 지식을 채워나갈 예정입니다:)'; white-space:pre; position: absolute; margin-left: -360px; text-align: right;}
+.interest .inner ul li:nth-child(1) img {transform: rotate(-100deg);}
+
+.interest .inner ul li:nth-child(2) {margin: 660px 310px 0 0;}
+.interest .inner ul li:nth-child(2)::after {content: '미술을 전공한 만큼, 그림그리는 것을 좋아합니다. \A 실제 있는 대상을 저의 스타일대로 묘사하는 것을 좋아합니다.'; white-space:pre; position: absolute; margin-top: 8px; margin-left: 50px; text-align: left;}
+.interest .inner ul li:nth-child(2) img {transform: rotate(-30deg);}
+
+.interest .inner ul li:nth-child(3) {margin: 1000px 80px 0 0;}
+.interest .inner ul li:nth-child(3)::before {content: '피아노를 연주하는 것이 취미입니다. \A 어렸을 적 콩쿨에서 상을 탄 적도 있어요:) \A 좋아하는 곡을 직접 편곡하여 악보를 만들어 보기도 했습니다.'; white-space:pre; position: absolute; text-align: right; margin-left: -385px;}
+.interest .inner ul li:nth-child(3) img {transform: rotate(-70deg);}
+
+.interest .inner ul li:nth-child(4) {margin: 1300px 0 0 270px;}
+.interest .inner ul li:nth-child(4)::after {content: '음악을 매우 좋아합니다. \A 그래서 공연을 가는 것도 좋아하고, \A 하루에 한 시간 이상은 음악을 감상하며 보냅니다.'; white-space:pre; position: absolute; margin-left: 50px; text-align: left;}
+.interest .inner ul li:nth-child(4) img {transform: rotate(-50deg);}
+
+.interest .inner ul li:nth-child(5) {margin: 1540px -790px 0 0;}
+.interest .inner ul li:nth-child(5)::before {content: '우주, 천문학을 좋아해요 \A 밤하늘의 별을 관찰하는 것을 좋아하고,  \A 관련 유튜브나 책을 보며 우주에 대해 알아가는 것을 좋아합니다. \A 천문학 말고도 과학분야는 모두 흥미가 있습니다.'; white-space:pre; position: absolute; margin: 70px 0 0 -350px; text-align: right;}
+.interest .inner ul li:nth-child(5) img {transform: rotate(-100deg);}
+
+
+
+
+
+
+/* studyblog */
+.blog {width: 100%;}
+.blog .inner {width: 100%; height: 100vh; /* padding: 500px 0; */ box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; position: relative}
+.blog .inner .section-title {width: 43%;  margin-left: 7%;}
+
+.blog .inner .section-title > svg {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;}
+
+.blog .inner .section-title .title-container {width: 550px;}
+.blog .inner .section-title .txt {margin: 20px 0 0 40%; text-align: left;}
+.blog .inner ul {width: 45%;}
+.blog .inner ul li {width: 100%; border-bottom: 1px solid var(--text-color-black);}
+.blog .inner ul li a {display: block; width: 100%; height: 100%; padding: 30px 10px 5px; box-sizing: border-box; overflow: hidden; font-size: 20px; cursor: pointer; position: relative; z-index: 2;}
+.blog .inner ul li a::after {content: url(../images/plus.svg); float: right; margin-right: 10px; transition: all .7s;}
+.blog .inner ul li a span:nth-child(1) {margin-right: 50px;}
+.blog .inner ul li:hover a::after,
+.blog .inner ul li:focus a::after {transform: rotate(360deg);}
+.blog .inner ul li:hover a span,
+.blog .inner ul li:focus a span {margin-left: 10px; transition: all .3s;}
+

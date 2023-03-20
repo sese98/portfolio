@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery & Work | Seyeon's Universe</title>
+  <!-- css -->
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/slick.css">
+  <link rel="stylesheet" href="../css/fonts.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/common-ani.css">
+  <link rel="stylesheet" href="gallery_ani.css">
+  <link rel="stylesheet" href="gallery_style.css">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+  <!-- 플러그인 -->
+  <script src="https://kit.fontawesome.com/a66a550c43.js" crossorigin="anonymous"></script>
+  <script defer src="../js/jquery-3.3.1.min.js"></script>
+  <script defer src="../js/slick.min.js"></script>
+  <script defer src="../js/scrolla.jquery.min.js"></script>
+  <script src="../js/splitting.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+  <!-- js -->
+  <script defer src="../js/common_script.js"></script>
+  <script defer src="gallery.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="innerHeader">
+        <a href="../index.html" class="header-logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="74.854" height="62.635" viewBox="0 0 74.854 62.635">
+            <g id="그룹_154" data-name="그룹 154" transform="translate(-876 -469.65)">
+              <g id="타원_39" class="HeaderAni04" data-name="타원 39" transform="translate(876 506.388)" fill="none" stroke="#656565" stroke-width="1">
+                <ellipse cx="37.427" cy="10.349" rx="37.427" ry="10.349" stroke="none"/>
+                <ellipse cx="37.427" cy="10.349" rx="36.927" ry="9.849" fill="none"/>
+              </g>
+              <g id="타원_38" class="HeaderAni03" data-name="타원 38" transform="translate(876 495.897)" fill="none" stroke="#656565" stroke-width="1">
+                <ellipse cx="37.427" cy="10.491" rx="37.427" ry="10.491" stroke="none"/>
+                <ellipse cx="37.427" cy="10.491" rx="36.927" ry="9.991" fill="none"/>
+              </g>
+              <path id="패스_104" data-name="패스 104" d="M8.961,0A8.961,8.961,0,1,1,0,8.961,8.961,8.961,0,0,1,8.961,0Z" transform="translate(904.674 492.402)"/>
+              <g id="타원_40" class="HeaderAni02" data-name="타원 40" transform="translate(876 485.406)" fill="none" stroke="#656565" stroke-width="1">
+                <ellipse cx="37.427" cy="10.491" rx="37.427" ry="10.491" stroke="none"/>
+                <ellipse cx="37.427" cy="10.491" rx="36.927" ry="9.991" fill="none"/>
+              </g>
+              <path id="패스_96" class="HeaderAni06" data-name="패스 96" d="M354.792,312.191l.408-3.573a.393.393,0,0,1,.781,0l.408,3.573a.394.394,0,0,0,.346.346l3.573.408a.393.393,0,0,1,0,.781l-3.573.408a.393.393,0,0,0-.346.346l-.408,3.573a.393.393,0,0,1-.781,0l-.408-3.573a.392.392,0,0,0-.346-.346l-3.573-.408a.393.393,0,0,1,0-.781l3.573-.408A.393.393,0,0,0,354.792,312.191Z" transform="translate(587.34 213.883)"/>
+              <g id="타원_37" class="HeaderAni01" data-name="타원 37" transform="translate(876 475.199)" fill="none" stroke="#656565" stroke-width="1">
+                <ellipse cx="37.427" cy="10.349" rx="37.427" ry="10.349" stroke="none"/>
+                <ellipse cx="37.427" cy="10.349" rx="36.927" ry="9.849" fill="none"/>
+              </g>
+              <path id="패스_95" class="HeaderAni05" data-name="패스 95" d="M354.792,312.191l.408-3.573a.393.393,0,0,1,.781,0l.408,3.573a.394.394,0,0,0,.346.346l3.573.408a.393.393,0,0,1,0,.781l-3.573.408a.393.393,0,0,0-.346.346l-.408,3.573a.393.393,0,0,1-.781,0l-.408-3.573a.392.392,0,0,0-.346-.346l-3.573-.408a.393.393,0,0,1,0-.781l3.573-.408A.393.393,0,0,0,354.792,312.191Z" transform="translate(528.333 161.73)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="0.7"/>
+            </g>
+          </svg>
+        </a>
+        <p class="menuBar"><img src="../images/menu.svg" alt="메뉴바아이콘"></p>
+      </div>
+      <nav>
+        <ul class="gnb">
+          <li><a href="../index.html"><span>HOME</span></a></li>
+          <li><a href="../sub_about/about.html"><span>ABOUT</span></a></li>
+          <li><a href="gallery.html"><span>GALLERY</span></a></li>
+          <li><a href="../sub_process/process.html"><span>PROCESS</span></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- visual -->
+    <section class="visual animate" data-animate="motion">
+      <div class="inner">
+        <div class="section-title">
+          <div class="title-container">
+            <p class="en1"><span>Gallery</span></p>
+            <p><span>& Work</span></p>
+          </div>
+          <p class="txt"><span>My Gallery and Work.</span></p>
+        </div>
+        <p class="visual-logo"><svg xmlns="http://www.w3.org/2000/svg" width="137.526" height="114.933" viewBox="0 0 137.526 114.933">
+          <g id="그룹_118" data-name="그룹 118" transform="translate(-876 -469.5)">
+            <g id="타원_39" class="sub-orbit1" data-name="타원 39" transform="translate(876 536.854)" fill="none" stroke="#656565" stroke-width="1">
+              <ellipse cx="68.763" cy="19.014" rx="68.763" ry="19.014" stroke="none"/>
+              <ellipse cx="68.763" cy="19.014" rx="68.263" ry="18.514" fill="none"/>
+            </g>
+            <g id="타원_38" class="sub-orbit2" data-name="타원 38" transform="translate(876 517.58)" fill="none" stroke="#656565" stroke-width="1">
+              <ellipse cx="68.763" cy="19.275" rx="68.763" ry="19.275" stroke="none"/>
+              <ellipse cx="68.763" cy="19.275" rx="68.263" ry="18.775" fill="none"/>
+            </g>
+            <path id="패스_104" data-name="패스 104" d="M16.463,0A16.463,16.463,0,1,1,0,16.463,16.463,16.463,0,0,1,16.463,0Z" transform="translate(928.681 511.157)"/>
+            <g id="타원_40" class="sub-orbit3" data-name="타원 40" transform="translate(876 498.305)" fill="none" stroke="#656565" stroke-width="1">
+              <ellipse cx="68.763" cy="19.275" rx="68.763" ry="19.275" stroke="none"/>
+              <ellipse cx="68.763" cy="19.275" rx="68.263" ry="18.775" fill="none"/>
+            </g>
+            <path id="패스_96" class="sub-starAni2" data-name="패스 96" d="M358.365,315.474l.75-6.565a.722.722,0,0,1,1.434,0l.75,6.565a.725.725,0,0,0,.636.635l6.565.75a.722.722,0,0,1,0,1.434l-6.565.75a.723.723,0,0,0-.636.635l-.75,6.565a.722.722,0,0,1-1.434,0l-.75-6.565a.721.721,0,0,0-.635-.635l-6.565-.75a.722.722,0,0,1,0-1.434l6.565-.75A.723.723,0,0,0,358.365,315.474Z" transform="translate(639.136 257.548)"/>
+            <g id="타원_37" class="sub-orbit4" data-name="타원 37" transform="translate(876 479.551)" fill="none" stroke="#656565" stroke-width="1">
+              <ellipse cx="68.763" cy="19.014" rx="68.763" ry="19.014" stroke="none"/>
+              <ellipse cx="68.763" cy="19.014" rx="68.263" ry="18.514" fill="none"/>
+            </g>
+            <path id="패스_95" class="sub-starAni1" data-name="패스 95" d="M358.365,315.474l.75-6.565a.722.722,0,0,1,1.434,0l.75,6.565a.725.725,0,0,0,.636.635l6.565.75a.722.722,0,0,1,0,1.434l-6.565.75a.723.723,0,0,0-.636.635l-.75,6.565a.722.722,0,0,1-1.434,0l-.75-6.565a.721.721,0,0,0-.635-.635l-6.565-.75a.722.722,0,0,1,0-1.434l6.565-.75A.723.723,0,0,0,358.365,315.474Z" transform="translate(530.725 161.73)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+        </svg></p>
+        <svg class="visual-line" xmlns="http://www.w3.org/2000/svg" width="961.588" height="448.752" viewBox="0 0 961.588 448.752">
+          <path id="패스_211" data-name="패스 211" d="M-4995.134,1152.176c12.271,103.933,288.321,81.917,582.419,222.714,98.817,47.308,237.609,126.451,378.384,225.57" transform="translate(4995.631 -1152.117)" fill="none" stroke="#000" stroke-width="1"/>
+        </svg>
+        <p class="intro-txt" data-splitting>
+          <span>클론코딩 작업물과 저의 Artwork & Drawing 갤러리입니다.</span>
+        </p>
+        <p class="scroll"><span>Scroll Down</span></p>
+      </div>
+    </section>
+
+    <!-- txtbar -->
+    <section class="txt-bar">
+      <ul class="box1">
+        <li>GALLERY & WORK</li>
+        <li><img src="../images/star_black.svg" alt=""></li>
+        <li>GALLERY & WORK</li>
+        <li><img src="../images/planet01.svg" alt="" class="planet"></li>
+        <li>GALLERY & WORK</li>
+        <li><img src="../images/star_black.svg" alt=""></li>
+        <li>GALLERY & WORK</li>
+        <li><img src="../images/planet01.svg" alt="" class="planet"></li>
+        <li>GALLERY & WORK</li>
+        <li><img src="../images/star_black.svg" alt=""></li>
+        <li>GALLERY & WORK</li>
+        <li><img src="../images/planet01.svg" alt="" class="planet"></li>
+      </ul>
+    </section>
+
+    <!-- clone -->
+    <section class="clone page-start1 fixEnd animate" data-animate="motion">
+      <div class="section-title">
+        <div class="title-container">
+          <p class="en1"><span>Clone</span></p>
+          <p><span>Coding</span></p>
+        </div>
+        <p class="txt"><span>수업 과정에서 진행한 클론코딩과 스스로 진행해 본 클론코딩입니다.</span></p>
+      </div>
+      <div class="container animate" data-animate="motion">
+        <svg class="svgAni2" xmlns="http://www.w3.org/2000/svg" width="1919.622" height="1026.349" viewBox="0 0 1919.622 1026.349">
+          <g id="그룹_309" data-name="그룹 309" transform="translate(-0.356 -7661.903)">
+            <path class="ani" id="패스_106" data-name="패스 106" d="M-4323.039,10644.4c-77.255,2.55-480.939,29.861-656.425,321.13-194.552,322.914-486.563,520.043-819.123,546.826-177.254,14.275-334.218,88.788-443.792,157.469" transform="translate(6243 -2982)" fill="none" stroke="#fffffb" stroke-width="1" opacity="0.75"/>
+            <path id="패스_109" data-name="패스 109" class="c1" d="M254.032,341.5,255.8,326a1.707,1.707,0,0,1,3.392,0l1.772,15.5a1.7,1.7,0,0,0,1.5,1.5l15.5,1.772a1.7,1.7,0,0,1,0,3.387l-15.5,1.772a1.692,1.692,0,0,0-1.5,1.5l-1.772,15.5a1.707,1.707,0,0,1-3.392,0l-1.772-15.5a1.7,1.7,0,0,0-1.5-1.5l-15.5-1.772a1.7,1.7,0,0,1,0-3.387l15.5-1.772A1.692,1.692,0,0,0,254.032,341.5Z" transform="translate(1218.805 7434.646)" fill="#fffffb"/>
+            <path id="패스_110" class="c2" data-name="패스 110" d="M247.208,335.231l1.119-9.786a1.078,1.078,0,0,1,2.141,0l1.119,9.786a1.074,1.074,0,0,0,.944.947l9.786,1.119a1.076,1.076,0,0,1,0,2.138l-9.786,1.119a1.068,1.068,0,0,0-.944.944l-1.119,9.786a1.078,1.078,0,0,1-2.141,0l-1.119-9.786a1.074,1.074,0,0,0-.944-.947l-9.786-1.119a1.076,1.076,0,0,1,0-2.138l9.786-1.119A1.068,1.068,0,0,0,247.208,335.231Z" transform="translate(487.502 8100.382) rotate(30)" stroke="#fffffb" stroke-miterlimit="10" stroke-width="1"/>
+            <circle id="타원_48" class="c3" data-name="타원 48" cx="6.5" cy="6.5" r="6.5" transform="translate(635 8486)" fill="#fffffb"/>
+          </g>
+        </svg>
+
+        <!-- clone slide list -->
+        <ul class="start">
+          
+          <li class="a">
+            <a href="../subpage/clone-sub.html">
+              <div class="bg"></div> <!-- background img -->
+              <p class="tit">양평아트DB</p>
+              <p class="txt">양평 예술인들의 작품을 감상 & 홍보하는 웹사이트 공간,<br>
+                양평아트DB를 클론코딩하였습니다.<br>
+                slick.js, scrolla.js를 적용하였습니다.
+              </p>
+              <p class="more">MORE</p>
+            </a>
+          </li>
+
+          <li class="b">
+            <a href="#">
+              <div class="bg"></div>
+              <p class="tit">Hanwha chemical</p>
+              <p class="txt">한화그룹 계열의 종합화학, 도시개발, 유통업체인<br>
+                한화케미칼의 홈페이지를 클론코딩하였습니다.<br>
+                splitting.js, scrolla.js를 적용하였습니다.
+              </p>
+              <p class="more">MORE</p>
+            </a>
+          </li>
+          
+          <li class="c">
+            <a href="#">
+              <div class="bg"></div>
+              <p class="tit">DOPDA</p>
+              <p class="txt">글로벌 컨시어지 서비스 그룹인<br>
+                돕다의 홈페이지를 클론코딩하였습니다.<br>
+                slick.js, scrolla.js를 적용하였습니다.
+              </p>
+              <p class="more">MORE</p>
+            </a>
+          </li>
+
+          <li class="d">
+            <a href="#">
+              <div class="bg"></div>
+              <p class="tit">Musign</p>
+              <p class="txt">웹 에이전시인<br>
+                뮤자인의 홈페이지을 클론코딩하였습니다.<br>
+                scrolla.js를 적용하였고,<br>
+                path를 이용한 애니메이션을 구현했습니다.
+              </p>
+              <p class="more">MORE</p>
+            </a>
+          </li>
+          
+          <li class="e">
+            <a href="#">
+              <div class="bg"></div>
+              <p class="tit">Y studio</p>
+              <p class="txt">웹 에이전시인<br>
+                Y Studio 홈페이지를 클론코딩하였습니다.<br>
+                slick.js, scrolla.js를 적용하였습니다.
+              </p>
+              <p class="more">MORE</p>
+            </a>
+          </li>
+          
+          <li class="f">
+            <a href="#">
+              <div class="bg"></div>
+              <p class="tit">CRUE A LA MODE</p>
+              <p class="txt">의류 & 라이프 스타일 에이전시인<br>
+                크루얼라모드를 클론코딩하였습니다.<br>
+                splitting.js, scrolla.js를 적용하였습니다.
+              </p>
+              <p class="more">MORE</p>
+            </a>
+          </li>
+
+          <li class="g">
+            <a href="#">
+              <div class="bg"></div>
+              <p class="tit">대방건설</p>
+              <p class="txt">우리나라의 건설업체 중 하나인<br>
+                대방건설의 홈페이지를 클론코딩하였습니다.<br>
+                slick.js, scrolla.js, splitting을 적용하였습니다.
+              </p>
+              <p class="more">MORE</p>
+            </a>
+          </li>
+          
+          <li class="h">
+            <a href="#">
+              <div class="bg"></div>
+              <p class="tit">포메인</p>
+              <p class="txt">한국식 베트남 쌀국수 전문점,<br>
+                포메인의 홈페이지를 클론코딩하였습니다.<br>
+                slick.js, scrolla.js를 적용하였습니다.
+              </p>
+              <p class="more">MORE</p>
+            </a>
+          </li>
+
+          <li class="i">
+            <a href="#">
+              <div class="bg"></div>
+              <p class="tit">소비자원</p>
+              <p class="txt">양평 예술인들의 작품을 감상 & 홍보하는 웹사이트 공간,<br>
+                양평아트DB를 클론코딩하였습니다.<br>
+                slick.js, scrolla.js를 적용하였습니다.
+              </p>
+              <p class="more">MORE</p>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </section>
+
+    <!-- ncs -->
+    <section class="ncs page-end1 fixStart animate" data-animate="motion">
+      <!-- <div class="inner"> -->
+        <div class="section-title">
+          <div class="fix">
+            <div class="title-container">
+              <p class="en1"><span>NCS</span></p>
+              <p><span>Process</span></p>
+            </div>
+            <p class="txt">
+              <span>지난 6개월간 UX/UI 웹&앱 디자인&프론트엔드 교육에서 성실히 수행해 온 NCS 과정입니다 :)</span>
+            </p>
+          </div>
+        </div>
+        <div class="ncs-container">
+          <ul>
+            <li>
+              <a href="#">
+                <p class="num">№<span>⎯</span>/001</p>
+                <p class="cate">웹 UI 구현 및 테스트</p>
+                <p class="tit">UI 구현</p>
+                <p class="txt">UI 설계 산출물과 UI 디자인 가이드를 바탕으로 UI 설계와 UI 구현 표준 검토 능력</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p class="num">№<span>⎯</span>/002</p>
+                <p class="cate">웹 UI 구현 및 테스트</p>
+                <p class="tit">프로그래밍 언어 활용</p>
+                <p class="txt">UI 설계 산출물과 UI 디자인 가이드를 바탕으로 UI 설계와 UI 구현 표준 검토 능력</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p class="num">№<span>⎯</span>/003</p>
+                <p class="cate">웹 UI 구현 및 테스트</p>
+                <p class="tit">UI 구현</p>
+                <p class="txt aa">UI 설계 산출물과 UI 디자인 가이드를 바탕으로 UI 설계와 UI 구현 표준 검토 능력</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p class="num">№<span>⎯</span>/004</p>
+                <p class="cate">웹 UI 구현 및 테스트</p>
+                <p class="tit">UI 구현</p>
+                <p class="txt">UI 설계 산출물과 UI 디자인 가이드를 바탕으로 UI 설계와 UI 구현 표준 검토 능력</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p class="num">№<span>⎯</span>/005</p>
+                <p class="cate">웹 UI 구현 및 테스트</p>
+                <p class="tit">UI 구현</p>
+                <p class="txt">UI 설계 산출물과 UI 디자인 가이드를 바탕으로 UI 설계와 UI 구현 표준 검토 능력</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p class="num">№<span>⎯</span>/006</p>
+                <p class="cate">웹 UI 구현 및 테스트</p>
+                <p class="tit">UI 구현</p>
+                <p class="txt">UI 설계 산출물과 UI 디자인 가이드를 바탕으로 UI 설계와 UI 구현 표준 검토 능력</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      <!-- </div> -->
+    </section>
+
+    <!-- artwork -->
+    <section class="artwork end">
+      <div class="inner">
+        <div class="section-title">
+          <p class="en1">Artwork</p>
+          <p>& Drawing</p>
+        </div>
+        <ul>
+          <li><!-- 그림이미지넣기 --></li>
+          <li><!-- 그림이미지넣기 --></li>
+          <li><!-- 그림이미지넣기 --></li>
+          <li><!-- 그림이미지넣기 --></li>
+          <li><!-- 그림이미지넣기 --></li>
+          <li><!-- 그림이미지넣기 --></li>
+          <li><!-- 그림이미지넣기 --></li>
+        </ul>
+      </div>
+    </section>
+
+   <!-- footer -->
+   <footer>
+    <div class="foot-tit">
+      <p class="bg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="335.543" height="279.699" viewBox="0 0 335.543 279.699">
+          <g id="그룹_236" data-name="그룹 236" transform="translate(-792.454 -17397.91)">
+            <g id="타원_39" class="orbit4" data-name="타원 39" transform="translate(792.454 17561.523)" fill="none" stroke="#6e6e6e" stroke-width="1">
+              <ellipse cx="167.772" cy="46.391" rx="167.772" ry="46.391" stroke="none"/>
+              <ellipse cx="167.772" cy="46.391" rx="167.272" ry="45.891" fill="none"/>
+            </g>
+            <path id="패스_96" class="starAni2" data-name="패스 96" d="M369.653,325.848l1.831-16.017a1.761,1.761,0,0,1,3.5,0l1.831,16.017a1.768,1.768,0,0,0,1.551,1.551l16.017,1.831a1.761,1.761,0,0,1,0,3.5l-16.017,1.831a1.763,1.763,0,0,0-1.551,1.551l-1.831,16.017a1.761,1.761,0,0,1-3.5,0l-1.831-16.017a1.759,1.759,0,0,0-1.55-1.551l-16.017-1.831a1.761,1.761,0,0,1,0-3.5L368.1,327.4A1.763,1.763,0,0,0,369.653,325.848Z" transform="translate(719.244 17323.922)" fill="#fff"/>
+            <g id="타원_38" class="orbit3" data-name="타원 38" transform="translate(792.454 17514.496)" fill="none" stroke="#6e6e6e" stroke-width="1">
+              <ellipse cx="167.772" cy="47.027" rx="167.772" ry="47.027" stroke="none"/>
+              <ellipse cx="167.772" cy="47.027" rx="167.272" ry="46.527" fill="none"/>
+            </g>
+            <path id="패스_105" data-name="패스 105" d="M40.232,0A40.232,40.232,0,1,1,0,40.232,40.232,40.232,0,0,1,40.232,0Z" transform="translate(920.884 17498.686)" fill="#b5b5b5"/>
+            <g id="타원_37" class="orbit1" data-name="타원 37" transform="translate(792.454 17421.713)" fill="none" stroke="#6e6e6e" stroke-width="1">
+              <ellipse cx="167.772" cy="46.391" rx="167.772" ry="46.391" stroke="none"/>
+              <ellipse cx="167.772" cy="46.391" rx="167.272" ry="45.891" fill="none"/>
+            </g>
+            <g id="타원_40" class="orbit2" data-name="타원 40" transform="translate(792.454 17467.471)" fill="none" stroke="#6e6e6e" stroke-width="1">
+              <ellipse cx="167.772" cy="47.027" rx="167.772" ry="47.027" stroke="none"/>
+              <ellipse cx="167.772" cy="47.027" rx="167.272" ry="46.527" fill="none"/>
+            </g>
+            <path id="패스_95" class="starAni1" data-name="패스 95" d="M369.653,325.848l1.831-16.017a1.761,1.761,0,0,1,3.5,0l1.831,16.017a1.768,1.768,0,0,0,1.551,1.551l16.017,1.831a1.761,1.761,0,0,1,0,3.5l-16.017,1.831a1.763,1.763,0,0,0-1.551,1.551l-1.831,16.017a1.761,1.761,0,0,1-3.5,0l-1.831-16.017a1.759,1.759,0,0,0-1.55-1.551l-16.017-1.831a1.761,1.761,0,0,1,0-3.5L368.1,327.4A1.763,1.763,0,0,0,369.653,325.848Z" transform="translate(454.738 17090.141)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+        </svg>
+        
+      </p>
+      <p class="tit">Contact</p>
+    </div>
+    <div class="contact-box">
+      <div class="box">
+        <p><a href="tel:+010 3329 1676"><span>Phone</span>010 3329 1676</a></p>
+        <p><a href="mailto:river_0@naver.com"><span>E-mail</span>river_0@naver.com</a></p>
+      </div>
+      <ul>
+        <li><a href="#">KAKAO</a></li>
+        <li><a href="https://practice-c0ding.tistory.com/" target="_blank">T-STORY</a></li>
+        <li><a href="#">GITHUB</a></li>
+      </ul>
+      <p class="copy">
+        본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.<br>
+        &copy; 2022 Kim-seyeon. All rights reserved.
+      </p>
+    </div>
+  </footer>
+  <a class="topBtn" href="#" title="top">TOP</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* wordBar */
+@keyframes gallery-keyword {
+  0% {transform: translateX(0%);}
+  100% {transform: translateX(-33.33%);}
+}
+.txt-bar .box1 {animation-duration: 9s; animation-iteration-count: infinite; animation-timing-function: linear;}
+.txt-bar .box1 {
+  animation-name: gallery-keyword;  
+  /* transform: translateX(-33.33%); */
+}

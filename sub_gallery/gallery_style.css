@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+header {width: 100%; display: flex; justify-content: space-between; background: var(--header-background-color); position: fixed; left: 0; top: 0; transition: all 0.3s; filter: invert(0%); z-index: 10000;}
+
+.visual .title-container span {padding-bottom: 20px;}
+
+/* visual */
+.visual {width: 100%;}
+.visual .inner {width: 100%; margin: 150px auto; text-align: center; position: relative;}
+.visual .inner .title-container {width: 650px; margin: 0 auto; margin-bottom: 10px;}
+.visual .inner .section-title .txt {text-align: center; margin-bottom: 60px;}
+.visual .inner .visual-line {position: absolute; margin-top: -47px;}
+.visual .inner .intro-txt {margin: 100px 0 130px;}
+
+
+/* clone */
+.clone {background: none;}
+.clone p::selection, .clone span::selection, .clone img::selection, .clone a::selection {background: var(--selection-white); color: var(--text-color-black);}
+.clone {padding: 200px 0; position: relative;}
+.clone .section-title {width: 600px; margin-left: 80px; color: var(--text-color-white);}
+.clone .section-title .txt {text-align: left; margin-top: 10px;}
+
+.clone .container {position: relative; width: 100%;}
+.clone .container svg {position: absolute; margin: 0 auto;}
+.clone .container svg.on {position: fixed; top: 0;}
+
+.clone .container ul {text-align: center; width: 100vw; height: 100vh; overflow: hidden; display: flex; align-items: center; flex-wrap: nowrap;}
+.clone .container ul li {width: 400px; height: 550px; border-radius: 20px; overflow: hidden; position: relative; margin: 0 70px; flex-shrink: 0 !important; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);}
+.clone .container ul li a {display: block; color: var(--text-color-white);}
+.clone .container ul li a .bg {position: absolute; width: 100%; height: 100%; transition: all 2s; filter: brightness(60%);}
+.clone .container ul li:nth-child(1) a .bg {background: url(../images/clone_yangpyeong.jpg) no-repeat center/cover;}
+.clone .container ul li:nth-child(2) a .bg {background: url(../images/clone_chemical.jpg) no-repeat center/cover;}
+.clone .container ul li:nth-child(3) a .bg {background: url(../images/clone_concierge.jpg) no-repeat center/cover;}
+.clone .container ul li:nth-child(4) a .bg {background: url(../images/clone_musign.jpg) no-repeat center/cover;}
+.clone .container ul li:nth-child(5) a .bg {background: url(../images/clone_ystudio.jpg) no-repeat center/cover; filter: brightness(80%);}
+.clone .container ul li:nth-child(6) a .bg {background: url(../images/clone_crue.png) no-repeat center/cover;}
+.clone .container ul li:nth-child(7) a .bg {background: url(../images/clone_daebang.jpg) no-repeat center/cover;}
+.clone .container ul li:nth-child(8) a .bg {background: url(../images/clone_phomein.jpg) no-repeat center/cover;}
+.clone .container ul li:nth-child(9) a .bg {background: url(../images/clone_소비자원.jpg) no-repeat center/cover;}
+
+.clone .container ul li:hover a .bg,
+.clone .container ul li:focus a .bg {transform: scale(1.1);}
+.clone .container ul li a p {position: absolute; z-index: 1; left: 50%; transform: translateX(-50%);}
+.clone .container ul li a p.tit {top: 25%; font-size: 3rem; width: 80%;}
+.clone .container ul li a p.txt {top: 45%; font-size: 1rem; font-family: 'Pretendard-ExtraLight'; width: 80%; line-height: 1.4; margin-top: 20px;}
+.clone .container ul li a p.more {top: 70%; font-size: 16px; border: 1px solid rgba(255, 255, 255, 0.8); padding: 5px 15px; border-radius: 30px; transition: all 0.3s; font-family: 'Pretendard-ExtraLight';}
+.clone .container ul li:hover a p.more, 
+.clone .container ul li:focus a p.more {border: 1px solid transparent; border-bottom: 1px solid rgba(255, 255, 255, 0.8); border-radius: 0;}
+
+
+.clone .container ul li.a {transform: rotate(-10deg);}
+.clone .container ul li.b {transform: rotate(10deg);}
+.clone .container ul li.c {transform: rotate(-10deg);}
+.clone .container ul li.d {transform: rotate(10deg);}
+.clone .container ul li.e {transform: rotate(-10deg);}
+.clone .container ul li.f {transform: rotate(10deg);}
+.clone .container ul li.g {transform: rotate(-10deg);}
+.clone .container ul li.h {transform: rotate(10deg);}
+.clone .container ul li.i {transform: rotate(-10deg);}
+
+
+/* ncs */
+.ncs {width: 100%; padding: 150px 0; display: flex; justify-content: space-between; position: relative;}
+.ncs .inner {width: 100%;}
+.ncs .section-title {width: 560px; height: 100%; margin-left: 80px;}
+.ncs .section-title .txt {margin-top: 15px;}
+
+.ncs .section-title .fix {position: absolute; top: 10%;}
+.ncs .section-title .fix.on {position: fixed; bottom: 50%; transform: translateY(50%);}
+.ncs .section-title .fix.still {position: absolute; bottom: -20%;}
+
+.ncs .ncs-container {width: 55%;}
+.ncs .ncs-container ul li {border-bottom: 1px solid var(--text-color-black);}
+.ncs .ncs-container ul li:first-child {border-top: 1px solid  var(--text-color-black);}
+.ncs .ncs-container ul li a {display: block;}
+.ncs .ncs-container ul li a p {margin-left: 5px;}
+.ncs .ncs-container ul li a .num {text-align: right; margin-left: 0; padding: 10px 15px 0 0; box-sizing: border-box;}
+.ncs .ncs-container ul li a .num span {margin: 0 10px;}
+.ncs .ncs-container ul li a .tit {font-size: 3.2rem; padding: 3px 0 20px;}
+.ncs .ncs-container ul li a .txt {font-size: 1.1rem; padding-bottom: 25px;}
+.ncs .ncs-container ul li:hover p,.ncs .ncs-container ul li:focus p {margin-left: 10px; transition: all .5s;}
+
+
+/* artwork */
+.artwork {width: 100%; padding: 200px 0; margin: 200px 0px;}
+.artwork .inner {width: 80%; display: flex; flex-direction: column; align-items: center;}
+.artwork .section-title {width: 53%; margin: 0 auto;}
+.artwork ul {
+  margin: 200px auto 0;
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(4, 300px);
+  grid-template-areas: 
+  'a b b'
+  'a c d'
+  'e e d'
+  'f g g';
+}
+.artwork ul li {background: rgb(96, 117, 207);}
+.artwork ul li:nth-child(1) {grid-area: a;}
+.artwork ul li:nth-child(2) {grid-area: b;}
+.artwork ul li:nth-child(3) {grid-area: c;}
+.artwork ul li:nth-child(4) {grid-area: d;}
+.artwork ul li:nth-child(5) {grid-area: e;}
+.artwork ul li:nth-child(6) {grid-area: f;}
+.artwork ul li:nth-child(7) {grid-area: g;}
