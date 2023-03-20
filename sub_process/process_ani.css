@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+/* wordBar */
+@keyframes process-keyword {
+  0% {transform: translateX(0%);}
+  100% {transform: translateX(-25%);}
+}
+.txt-bar .box1 {animation-duration: 10s; animation-iteration-count: infinite; animation-timing-function: linear;}
+.txt-bar .box1 {animation-name: process-keyword;}
+
+
+
+
+
+
+.brainstorming.motion ul li.motion:nth-child(1) > p {animation-name: slide-up2; animation-duration: .8s;}
+.brainstorming.motion ul li.motion:nth-child(2) > p {animation-name: slide-up2; animation-duration: 1s;}
+.brainstorming.motion ul li.motion:nth-child(3) > p {animation-name: slide-up2; animation-duration: 1.6s;}
+
+.concept.motion ul li:nth-child(1) {animation-name: fade; animation-duration: 2s;}
+.concept.motion ul li:nth-child(2) {animation-name: fade; animation-duration: 2.3s;}
+.concept.motion ul li:nth-child(3) {animation-name: fade; animation-duration: 2.5s;}
+.concept.motion ul li:nth-child(4) {animation-name: fade; animation-duration: 2.8s;}
+.concept.motion ul li:nth-child(5) {animation-name: fade; animation-duration: 3s;}
+@keyframes fade {
+  0% {opacity: 0; transform: translateX(-30px);}
+  50% {opacity: 0; transform: translateX(-30px);}
+}
+
+/* brainstorming text ani */
+.brainstorming.motion ul .txt1.motion .char {display: inline-block; animation: brain-slideUp 1s}
+.brainstorming.motion ul .txt2.motion .char {display: inline-block; animation: brain-slideUp 1s}
+
+@keyframes brain-slideUp {
+  0% {transform: translateY(20px); opacity: 0;}
+  50% {transform: translateY(20px); opacity: 0;}
+}
+
+
+/* idea sketch */
+.ideaSketch.motion p.line {animation-name: line1; animation-duration: 1s; animation-timing-function: linear;}
+@keyframes line1 {
+  0% {height: 0; opacity: 0;}
+  40% {height: 0; opacity: 0;}
+}
+.ideaSketch.motion ul.line {animation-name: line2; animation-duration: 1.6s;}
+@keyframes line2 {
+  0% {width: 0; opacity: 0;}
+  65% {width: 0; opacity: 0;}
+}
+.ideaSketch.motion ul.sketch li {animation-name: line3; animation-duration: 2s;}
+@keyframes line3 {
+  0% {opacity: 0;}
+  80% {opacity: 0;}
+}
+
+/* architecture */
+.architecture.motion .container.motion p.portfolio {animation-name: archiFade; animation-duration: .9s;}
+.architecture.motion .container.motion p.line {animation-name: line1; animation-duration: 1s; animation-timing-function: linear;}
+.architecture.motion .container.motion ul.line {animation-name: line2; animation-duration: 1.6s;}
+.architecture.motion .container.motion ul.process li {animation-name: line3; animation-duration: 2s;}
+
+@keyframes archiFade {
+  0% {opacity: 0;}
+  50% {opacity: 0;}
+}
+
+/* wireFrame */
+.wireFrame.motion ul.sketch.motion p.img {animation-name: wireFrame; animation-duration: 2s; animation-timing-function: linear;}
+
+@keyframes wireFrame {
+  0% {height: 0;}
+  30% {height: 0;}
+}
+
+
+
+
+
+/* ***** path ***** */
+.brainstorming.motion #패스_271 {animation-name: dash1; animation-duration: 4.2s; stroke-dasharray: 2805; stroke-dashoffset: 0; animation-timing-function: linear;}
+@keyframes dash1 {
+  0% {stroke-dashoffset: 2805;}
+  20% {stroke-dashoffset: 2805;}
+  100% {stroke-dashoffset: 0;}
+}
+/* star */
+.brainstorming.motion .brainStar01 {animation-name: brainStar01; animation-duration: 2.3s;}
+.brainstorming.motion .brainStar02 {animation-name: brainStar02; animation-duration: 2.3s;}
+.brainstorming.motion .brainStar03 {animation-name: brainStar03; animation-duration: 3.7s;}
+.brainstorming.motion .brainStar04 {animation-name: brainStar04; animation-duration: 6.6s;}
+@keyframes brainStar01 {
+  0% {transform: matrix(0.407, 0.914, -0.914, 0.407, 1990.674, 2609.199); opacity: 0;}
+  50% {transform: matrix(0.407, 0.914, -0.914, 0.407, 1990.674, 2609.199); opacity: 0;}
+}
+@keyframes brainStar02 {
+  0% {transform: translate(1753px, 3034px); opacity: 0;}
+  50% {transform: translate(1753px, 3034px); opacity: 0;}
+}
+@keyframes brainStar03 {
+  0% {transform: translate(4010px, 2047px) rotate(78deg); opacity: 0;}
+  50% {transform: translate(4010px, 2047px) rotate(78deg); opacity: 0;}
+}
+@keyframes brainStar04 {
+  0% {transform: translate(530px, 3880px) rotate(97deg); opacity: 0;}
+  50% {transform: translate(530px, 3880px) rotate(97deg); opacity: 0;}
+}
+
+
+
+.mindmap.motion #패스_272 {animation-name: dash2; animation-duration: 3s; stroke-dasharray: 2221; stroke-dashoffset: 0; animation-timing-function: linear;}
+@keyframes dash2 {
+  0% {stroke-dashoffset: 2221;}
+  20% {stroke-dashoffset: 2221;}
+  100% {stroke-dashoffset: 0;}
+}
+/* star */
+.mindmap.motion .mindStar01 {animation-name: mindStar01; animation-duration: 1.3s;}
+.mindmap.motion .mindStar02 {animation-name: mindStar02; animation-duration: 3.3s;}
+.mindmap.motion .mindStar03 {animation-name: mindStar03; animation-duration: 1.3s;}
+@keyframes mindStar01 {
+  0% {transform: translate(100px, 4900px); opacity: 0;}
+  50% {transform: translate(100px, 4900px); opacity: 0;}
+}
+@keyframes mindStar02 {
+  0% {transform: matrix(0.407, 0.914, -0.914, 0.407, 1908, 4940); opacity: 0;}
+  80% {transform: matrix(0.407, 0.914, -0.914, 0.407, 1908, 4940); opacity: 0;}
+}
+@keyframes mindStar03 {
+  0% {transform: translate(75px, 4856px); opacity: 0;}
+  50% {transform: translate(75px, 4856px); opacity: 0;}
+}
+
+
+/* concept */
+.concept.motion #패스_241 {animation-name: dash3; animation-duration: 2.5s; stroke-dasharray: 1976; stroke-dashoffset: 0;}
+@keyframes dash3 {
+  0% {stroke-dashoffset: 1976;}
+  30% {stroke-dashoffset: 1976;}
+  100% {stroke-dashoffset: 0;}
+}
+
+/* middleLine1 */
+.middleLine1.motion .line path {animation-name: dash4; animation-duration: 2.5s; stroke-dasharray: 2264; stroke-dashoffset: 0;}
+@keyframes dash4 {
+  0% {stroke-dashoffset: 2264;}
+  20% {stroke-dashoffset: 2264;}
+  100% {stroke-dashoffset: 0;}
+}
+.middleLine1.motion .c1 {animation-name: mdLine1-c1; animation-duration: 2s;}
+.middleLine1.motion .c2 {animation-name: mdLine1-c2; animation-duration: 2s;}
+.middleLine1.motion .c3 {animation-name: mdLine1-c3; animation-duration: 2.3s;}
+@keyframes mdLine1-c1 {
+  0% {opacity: 0; transform: translate(-25px, 29px);}
+  30% {opacity: 0; transform: translate(-25px, 29px);}
+}
+@keyframes mdLine1-c2 {
+  0% {opacity: 0; transform: translate(0px, -5px);}
+  30% {opacity: 0; transform: translate(0px, -5px);}
+}
+@keyframes mdLine1-c3 {
+  0% {opacity: 0; transform: translate(1000.405px, 275px);}
+  50% {opacity: 0; transform: translate(1000.405px, 275px);}
+}
+
+/* style Guide */
+.styleGuide.motion ul.container > li.motion:nth-child(1) {animation-name: slide-up2; animation-duration: .9s;}
+.styleGuide.motion ul.container > li.motion:nth-child(2) {animation-name: slide-up2; animation-duration: .9s;}
+.styleGuide.motion ul.container > li.motion:nth-child(3) {animation-name: slide-up2; animation-duration: .9s;}
+
+
+.middleLine2.motion #패스_273 {animation-name: dash5; animation-duration: 2.5s; stroke-dasharray: 2313; stroke-dashoffset: 0;}
+@keyframes dash5 {
+  0% {stroke-dashoffset: 2313;}
+  30% {stroke-dashoffset: 2313;}
+  100% {stroke-dashoffset: 0;}
+}
+.middleLine2.motion .c1 {animation-name: mdLine2-c1; animation-duration: 2s;}
+.middleLine2.motion .c2 {animation-name: mdLine2-c2; animation-duration: 2.2s;}
+.middleLine2.motion .c3 {animation-name: mdLine2-c3; animation-duration: 2.5s;}
+@keyframes mdLine2-c1 {
+  0% {opacity: 0; transform: translate(1595px, 15787px);}
+  30% {opacity: 0; transform: translate(1595px, 15787px);}
+}
+@keyframes mdLine2-c2 {
+  0% {opacity: 0; transform: translate(1910px, 12975px) rotate(26deg);}
+  30% {opacity: 0; transform: translate(1910px, 12975px) rotate(26deg);}
+}
+
+@keyframes mdLine2-c3 {
+  0% {opacity: 0; transform: matrix(-0.777, 0.629, -0.629, -0.777, 570, 16157);}
+  50% {opacity: 0; transform: matrix(-0.777, 0.629, -0.629, -0.777, 570, 16157);}
+}
+
