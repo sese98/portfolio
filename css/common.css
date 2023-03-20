@@ -43,8 +43,8 @@ nav .gnb a {position: relative; overflow: hidden; display: block; padding: 3px 2
 
 /* header hover */
 nav .gnb a span {opacity: 0;}
-nav .gnb li:nth-child(1) a::before {content: 'MAIN'; position: absolute; left: 50%; transform: translateX(-50%);}
-nav .gnb li:nth-child(1) a::after {content: 'MAIN'; position: absolute; left: 50%; transform: translate(-50%, 100%);}
+nav .gnb li:nth-child(1) a::before {content: 'HOME'; position: absolute; left: 50%; transform: translateX(-50%);}
+nav .gnb li:nth-child(1) a::after {content: 'HOME'; position: absolute; left: 50%; transform: translate(-50%, 100%);}
 nav .gnb li:nth-child(2) a::before {content: 'ABOUT'; position: absolute; left: 50%; transform: translateX(-50%);}
 nav .gnb li:nth-child(2) a::after {content: 'ABOUT'; position: absolute; left: 50%; transform: translate(-50%, 100%);}
 nav .gnb li:nth-child(3) a::before {content: 'GALLERY'; position: absolute; left: 50%; transform: translateX(-50%);}
