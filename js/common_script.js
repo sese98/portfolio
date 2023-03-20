@@ -31,7 +31,6 @@ $(function () {
 });
 
 
-
 //메뉴 토글
 $(function() {
   $('header .menuBar').on('click', function(){
@@ -48,7 +47,5 @@ $(function() {
 //   })
 // });
 
-
 // let path = document.querySelector('.skills .chart61percent path').getTotalLength();
 // console.log(path);
-
