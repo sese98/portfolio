@@ -15,11 +15,6 @@ header {width: 100%; display: flex; justify-content: space-between; background: 
 .visual .inner .intro-txt {margin: 100px 0 130px;}
 
 
-/* story video */
-.story-video {width: 100%; height: 100vh; display: flex; align-items: center; position: relative; margin-top: 200px;}
-.story-video p {position: absolute; left: 50%; transform: translateX(-50%); color: var(--text-color-white); font-size: 80px; opacity: 0.9;}
-
-
 .section-title p span {padding: 0px 20px 15px;}
 
 /* brainstorming */
@@ -27,7 +22,7 @@ header {width: 100%; display: flex; justify-content: space-between; background: 
 .brainstorming img::selection,
 .brainstorming span::selection {background: var(--selection-white); color: var(--text-color-black);}
 
-.brainstorming {width: 100%; text-align: center; padding: 100px 0 300px;}
+.brainstorming {width: 100%; text-align: center; padding: 100px 0 300px; margin-top: 300px;}
 .brainstorming .inner {position: relative; width: 100%;}
 .brainstorming .inner .section-title {width: 70%; line-height: 1.1; margin: 0 auto; color: var(--text-color-white);}
 .brainstorming .inner .bg {width: 1920px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
