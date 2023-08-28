@@ -49,7 +49,7 @@ $(function(){
   gsap.timeline({ 
     scrollTrigger: {
       trigger: '.txt-bar',
-      start: '80% 50%',
+      start: '30% 50%',
       end : '140% 50%',
       scrub : 1, 
       // markers : true
