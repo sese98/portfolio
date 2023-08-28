@@ -105,7 +105,7 @@ header {width: 100%; display: flex; justify-content: space-between; background: 
 
 
 /* idea sketch */
-.ideaSketch {padding: 200px 0;}
+.ideaSketch {padding: 200px 0; margin-bottom: 200px;}
 .ideaSketch .inner {width: 90%;}
 .ideaSketch .section-title {width: 565px; margin: 0 auto;}
 .ideaSketch .section-title .title-container {width: 500px; margin: 0 auto 10px;}
@@ -119,8 +119,8 @@ header {width: 100%; display: flex; justify-content: space-between; background: 
 .ideaSketch ul.sketch {width: 100%; display: flex; justify-content: center;}
 .ideaSketch ul.sketch li {width: 20%; height: 800px; text-align: center; display: flex; flex-direction: column; justify-content: space-between;}
 .ideaSketch ul.sketch li p.cate {font-size: 20px; font-family: 'Pretendard-Regular';}
-.ideaSketch ul.sketch li p.img {background: var(--background-color-white); width: 90%; height: 765px; margin: 0 auto; border: 1px solid #aaa; box-sizing: border-box;}
-
+.ideaSketch ul.sketch li p.img {background: var(--background-color-white); width: 90%; height: 765px; margin: 0 auto; box-sizing: border-box;}
+.ideaSketch ul.sketch li p.img img {object-fit: cover; width: 100%; border: 1px solid #000;}
 
 
 
