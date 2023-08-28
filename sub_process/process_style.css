@@ -1,4 +1,4 @@
-@charset "utf-8";
+a@charset "utf-8";
 
 header {width: 100%; display: flex; justify-content: space-between; background: rgba(255, 255, 251, 0.5); position: fixed; left: 0; top: 0; transition: all 0.3s; filter: invert(0%); z-index: 10000;}
 
@@ -244,4 +244,5 @@ header {width: 100%; display: flex; justify-content: space-between; background: 
 .full {padding: 200px 0;}
 .full .inner {width: 80%;}
 .full .section-title {width: 40%; max-width: 400px; margin-bottom: 100px;}
-.full p.img {width: 70%; height: 1800px; background: grey; margin: 0 auto;}
+.full p.img {width: 70%;  background: grey; margin: 0 auto;}
+.full p.img img {width: 100%; border: 1px solid #aaa;}
